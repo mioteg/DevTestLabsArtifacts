@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2015-01-01/dtlArtifacts.json",
-    "title": "7-Zip",
+    "title": "Eclipse IDE for Java Developers (Neon)",
     "publisher": "Azure CAT GSI",
     "description": "Installs Eclipse IDE for Java Developers (Neon) using the Chocolatey package manager. See https://chocolatey.org/packages/eclipse-java-neon for more details.",
     "tags": [
@@ -10,7 +10,7 @@
         "Maven",
         "Mylyn"
     ],
-    "iconUri": "https://github.com/mioteg/DevTestLabsArtifacts/blob/master/Artifacts/windows-eclipse/eclipse-icon.svg",
+    "iconUri": "https://github.com/mioteg/DevTestLabsArtifacts/blob/master/Artifacts/windows-eclipse/eclipse-icon.png",
     "targetOsType": "Windows",
     "runCommand": {
         "commandToExecute": "powershell.exe -ExecutionPolicy bypass -File startChocolatey.ps1 -PackageList eclipse-java-neon"
