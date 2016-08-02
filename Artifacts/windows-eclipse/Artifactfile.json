@@ -10,7 +10,7 @@
         "Maven",
         "Mylyn"
     ],
-    "iconUri": "https://github.com/mioteg/DevTestLabsArtifacts/blob/master/Artifacts/windows-eclipse/eclipse-icon.png",
+    "iconUri": "https://raw.githubusercontent.com/mioteg/DevTestLabsArtifacts/master/Artifacts/windows-eclipse/eclipse-icon.svg",
     "targetOsType": "Windows",
     "runCommand": {
         "commandToExecute": "powershell.exe -ExecutionPolicy bypass -File startChocolatey.ps1 -PackageList eclipse-java-neon"
